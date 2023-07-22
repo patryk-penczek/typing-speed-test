@@ -55,10 +55,10 @@
 
 <div class="flex flex-col w-full gap-y-5 sm:rounded-lg">
   <div class="flex justify-around w-full">
-    <div class="text-lg font-medium">
+    <div class="font-medium sm:text-lg">
       <p>WPM: {wordsPerMinute.toFixed(2)}</p>
     </div>
-    <div class="text-lg font-medium">
+    <div class="font-medium sm:text-lg">
       <p>CPM: {charactersPerMinute.toFixed(2)}</p>
     </div>
   </div>

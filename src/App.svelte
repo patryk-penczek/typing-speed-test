@@ -28,11 +28,11 @@
     class="absolute left-0 object-cover h-screen"
   />
   <div
-    class="z-10 flex flex-col items-center w-full max-w-2xl p-8 bg-white border-2 border-black gap-y-5 sm:rounded-lg"
+    class="z-10 flex flex-col items-center w-full max-w-2xl px-2 py-4 bg-white border-2 border-black sm:p-8 border-x-0 sm:border-x-2 gap-y-5 sm:rounded-lg"
   >
-    <div class="flex flex-col items-center">
-      <h1 class="text-3xl font-semibold">Typing speed test</h1>
-      <h2 class="text-lg font-medium text-gray-500"> Improve your typing skills </h2>
+    <div class="flex flex-col items-center text-center">
+      <h1 class="text-2xl font-semibold sm:text-3xl">Typing speed test</h1>
+      <h2 class="font-medium text-gray-500 sm:text-lg">How fast can you type?</h2>
     </div>
     <WordInput wordDataList="{wordDataList}" />
   </div>
